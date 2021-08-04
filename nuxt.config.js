@@ -25,7 +25,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/axios',
     '~/plugins/font-awesome',
     '~/plugins/lodash',
     '~/plugins/vue-awesome-swiper',
@@ -42,15 +41,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    '@nuxtjs/axios',
     'nuxt-fontawesome',
-
   ],
-  axios: {
-    baseURL: 'http://localhost:8000/api',
-    proxy: true
-    // proxyHeaders: false
-  },
   fontawesome: {
     // icon 的標籤使用 <fa>，這邊不設定就會依照 plugin 裡的設定<font-awesome-icon>
     component: 'fa',

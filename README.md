@@ -1,4 +1,4 @@
-# nuxt1
+nuxt
 
 ## Build Setup
 
