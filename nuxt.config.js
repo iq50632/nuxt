@@ -1,7 +1,11 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt1',
+    title: '妲比商城 ◆ ',
+    target: 'static',
+    router: {
+      base: '/nuxt/'
+    },
     htmlAttrs: {
       lang: 'en'
     },
