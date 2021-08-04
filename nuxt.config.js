@@ -78,4 +78,5 @@ export default {
   auth : { 
     cookie : false
   },
-
+  publicPath: '/nuxt/',
+}
