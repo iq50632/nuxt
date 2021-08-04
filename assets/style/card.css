@@ -1,0 +1,112 @@
+
+.bg {
+  background-image: url("https://d2otiughgt5pr2.cloudfront.net/wp-content/uploads/sites/100/2017/03/desk-optimize-535b-349e.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.cardSelect {
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  background: rgb(84, 182, 228, 35%);
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.cardSelect:hover {
+  background-color: rgb(84, 182, 228, 35%);
+  color: rgb(1, 115, 150);
+}
+
+.cardSelect h3 {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.card {
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  background: rgb(84, 182, 228, 35%);
+  padding: 30px;
+  border-radius: 30px;
+}
+.card .title {
+  font-weight: 1000;
+  position: relative;
+  color: rgb(47, 140, 194);
+  font-size: 24px;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+/* 登入標題樣式 */
+
+hr {
+  color: rgb(34, 30, 30);
+}
+
+h1 {
+  position: relative;
+  color: rgb(23, 162, 184);
+  font-size: 24px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+/* 登入標題的下劃線樣式 */
+
+h1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0px;
+  height: 3px;
+  background: rgb(23, 162, 184);
+  transition: 0.5s;
+}
+
+h1:hover:before {
+  width: 53px;
+}
+
+h2 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: bold
+}
+
+h3 {
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: rgb(31, 31, 31);
+}
+
+.inputBox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* 輸入框樣式 */
+.input {
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgb(31, 31, 31);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.input::placeholder {
+  color: rgb(31, 31, 31);
+}

@@ -1,0 +1,62 @@
+.cardSelect_blue {
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  background: rgb(84, 182, 228, 35%);
+  padding: 20px;
+  border-radius: 30px;
+  height: auto;
+}
+
+.cardSelect_blue:hover {
+  background-color: rgb(84, 182, 228, 35%);
+  color: rgb(1, 115, 150);
+}
+
+.cardSelect_blue .imgFrame {
+  padding: 0;
+}
+.cardSelect_blue .imgFrame img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.cardSelect_blue h3 {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+.title {
+  position: relative;
+  color: rgb(111, 197, 247);
+  font-size: 24px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/* 登入標題的下劃線樣式 */
+.title_line {
+  position: relative;
+  color: rgb(111, 197, 247);
+  font-size: 24px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.title_line::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0px;
+  height: 2px;
+  background: rgb(111, 197, 247);
+  transition: 2s;
+}
+
+.title_line:hover:before {
+  width: 100%;
+}

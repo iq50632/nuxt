@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 3px;
+}
+
+.Divpre {
+  width: 100%
+}
+
+.Divpre pre {
+  word-break: break-all;
+  white-space: pre-line;
+  text-indent: 2em;
+}
+
+.SelectButton input {
+  height: 0;
+  width: 0;
+
+}
+
+/*            滾動條            */
+
+/*            整體            */
+::-webkit-scrollbar {
+  width: 1em;
+}
+
+/*            按鈕            */
+::-webkit-scrollbar-button {
+  background: rgb(255, 255, 255);
+}
+
+/*            滾動條按鈕            */
+::-webkit-scrollbar-track-piece {
+  background-color: rgb(255, 255, 255, 0.6);
+  /*滚动条的背景颜色*/
+}
+
+::-webkit-scrollbar-corner {
+  border: 1px solid red;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border: 1px solid slategrey;
+  -webkit-border-radius: 2.5rem;
+  /*滚动条的圆角宽度*/
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /*滚动条的hover样式*/
+  height: 50px;
+  background-color: #9f9f9f;
+  -webkit-border-radius: 4px;
+}
