@@ -77,5 +77,5 @@ export default {
   ],
   auth : { 
     cookie : false
-  } ,
-}
+  },
+
